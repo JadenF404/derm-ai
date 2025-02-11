@@ -112,13 +112,13 @@ export OPENAI_API_KEY='your_openai_api_key_here'
 
 Alternatively, you can modify the `main.py` to load the API key directly within the script.
 
-## Future Improvements
+## Credits
+- **Dataset**: [Riya Eliza Shaju on Kaggle](https://www.kaggle.com/datasets/riyaelizashaju/skin-disease-classification-image-dataset)
+- **Libraries Used**: TensorFlow, Keras, Keras Tuner, PIL, OpenAI
 
-- **Expand Diagnostic Categories**: Add more conditions beyond acne and melanoma to the classification model.
-- **GUI Interface**: Implement a graphical user interface (GUI) for easier interaction.
-- **Model Optimization**: Enhance the accuracy of the classification model with more training data and better architecture.
-- **Custom Recommendations**: Offer more personalized recommendations based on the user's skin type and medical history.
+---
 
-## Conclusion
+## Notes
+- Always consult a medical professional for an accurate diagnosis and treatment plan. This application is designed for educational purposes and not as a substitute for professional medical advice.
 
-Derm AI provides an initial step towards digital dermatology solutions, blending AI chat models with image classification techniques. It assists users in identifying common skin conditions and provides recommendations based on AI-generated insights. Although it's not a replacement for a medical professional, it offers a convenient tool for preliminary analysis and guidance.
+---
